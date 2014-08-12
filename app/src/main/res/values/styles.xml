@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="IQueWelcomeTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+        <item name="android:actionBarStyle">@style/IQueActionBarStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/IQueOverflowButtonStyle</item>
+    </style>
+
+    <style name="IQueOverflowButtonStyle" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:iconifiedByDefault">false</item>
+    </style>
+
+    <style name="IQueActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/IQueActionBarTitleText</item>
+        <item name="android:background">#50C0E9</item>
+    </style>
+
+    <style name="IQueActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/ique_actionbar_title_text_color</item>
+    </style>
+
+    <style name="IQueViewDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:background">#000</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="IQueViewLineSpace">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">#fff</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+    <style name="IQueTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+        <item name="android:actionBarStyle">@style/IQueActionBarStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/IQueOverflowButtonStyle</item>
+    </style>
+</resources>

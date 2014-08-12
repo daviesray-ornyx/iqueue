@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ique_actionbar_title_text_color">#FFF</color>
+    <color name="white_background_color">#FFFFFF</color>
+    <color name="light_background_color">#2CB1E1</color>
+    <color name="dark_background_color">#0099CC</color>
+    <color name="white_font_color">#FFF</color>
+    <color name="profile_pic_background_color">#CF23201D</color>
+
+</resources>
